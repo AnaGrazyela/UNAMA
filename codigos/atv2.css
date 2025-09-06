@@ -1,0 +1,26 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Tahoma, sans-serif;
+    font-size: 16pt;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    color: red;
+}
+
+
+th {
+    color: blue;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+td {
+    font-family: italic;
+}

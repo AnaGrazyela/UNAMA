@@ -1,0 +1,54 @@
+fieldset {
+  border: 1px dotted black; 
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#dados-pessoais {
+  background-color: lightblue;
+}
+
+#dados-pessoais input, 
+#dados-pessoais select {
+  background-color: khaki; 
+}
+
+#dados-profissionais {
+  background-color: lightcoral;
+}
+
+#dados-profissionais textarea {
+  background-color: khaki; 
+}
+
+#acoes {
+  background-color: lightgreen;
+  padding: 15px;
+  border: 1px dotted black;
+  text-align: center;   
+}
+
+#acoes legend {
+  text-align: left;     
+}
+
+#acoes input[type="button"],
+#acoes input[type="submit"],
+#acoes input[type="reset"] {
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#acoes input[value="Enviar"] {
+  background-color: green;
+}
+
+#acoes input[value="Limpar"] {
+  background-color: rgba(228, 176, 6, 0.87);
+  color: rgb(255, 255, 255); 
+}

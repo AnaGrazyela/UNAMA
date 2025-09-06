@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre seu currículo</title>
+    <link rel="stylesheet" href="atv.css">
+</head>
+<body>
+    <center><h1>Formulário de cadastro</h1></center>
+    <form action="">
+        <fieldset id="dados-pessoais">
+            <legend>Dados Pessoais</legend>
+            <b>Nome: <input type="text"></b><br>
+            <b>E-mail: <input type="text"></b><br>
+            <b>Cidade: <input type="text"></b><br>
+            <b>Estado: <select name="Estado">
+                <option value="Escolha">Escolha</option>
+                <option value="Pará">PARÁ</option>
+                <option value="São Paulo">SÃO PAULO</option>
+                <option value="Rio de Janeiro">RIO DE JANEIRO</option></select></b>
+        </fieldset>
+        <fieldset id="dados-profissionais">
+            <legend>Dados profissionais</legend>
+            <h3>Cargo pretendido:</h3>
+            <input type="radio" name="cargo" value="analista">Analista de sistemas
+            <input type="radio" name="cargo" value="analista">Analista de banco de Dados
+            <input type="radio" name="cargo" value="analista">Analista de suporte
+            <h3>Tecnologias de interesse:</h3>
+            <input type="checkbox" name="language" value="java">Java
+            <input type="checkbox" name="language" value="html,css">HTML,CSS 
+            <input type="checkbox" name="language" value="javascript">Javascript 
+            <input type="checkbox" name="language" value="sql">SQL 
+            <h3>Mini currículo:</h3>
+            <textarea rows="10" cols="30"></textarea>
+        </fieldset>
+        <fieldset id="acoes">
+            <legend>Ações</legend>
+            <input type="button" value="Enviar">
+            <input type="button" value="Limpar">
+        </fieldset>
+    </form>
+</body>
+</html>
