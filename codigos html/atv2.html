@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Abrir uma conta</title>
+</head>
+<body>
+  <h1>Abrir uma conta</h1>
+  <p>É gratuito e sempre será.</p>
+
+  <form>
+    <input type="text" name="nome" placeholder="Nome" required>
+    <input type="text" name="sobrenome" placeholder="Sobrenome" required>
+    <br><br>
+
+    <input type="email" name="email" placeholder="E-mail ou número do celular" required>
+    <br><br>
+
+    <input type="email" name="email2" placeholder="Insira novamente o e-mail ou o celular" required>
+    <br><br>
+
+    <input type="password" name="senha" placeholder="Nova senha" required>
+    <br><br>
+
+    <label>Aniversário</label><br>
+    <select name="dia" required>
+      <option value="">Dia</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+    </select>
+
+    <select name="mes" required>
+      <option value="">Mês</option>
+      <option>Janeiro</option>
+      <option>Fevereiro</option>
+      <option>Março</option>
+    </select>
+    
+    <select name="ano" required>
+      <option value="">Ano</option>
+      <option>2000</option>
+      <option>2001</option>
+      <option>2002</option>
+    </select>
+    <br><br>
+    <input type="radio" name="genero" value="feminino" required> Feminino
+    <input type="radio" name="genero" value="masculino" required> Masculino
+    <br><br>
+
+    <button type="submit">Abrir uma conta</button>
+  </form>
+</body>
+</html>
